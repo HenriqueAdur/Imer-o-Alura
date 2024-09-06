@@ -32,8 +32,8 @@ function pesquisar() {
                         </div>
             `
         }
-        if (!resultados) {
-            resultados = "<p>Nada foi encontrado</p>"
+        if (!resultado) {
+            resultado = "<p>Nada foi encontrado</p>"
 
         }
         section.innerHTML = resultado
